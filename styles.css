@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+* {
+    color: white;
+    font-size: 18px;
+}
+
+h1 {
+    background-color: red;
+    text-align: center;
+    font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+a {
+    color:green
+}
