@@ -11,7 +11,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(https://images.pexels.com/photos/1265990/pexels-photo-1265990.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
       background-position: center;
