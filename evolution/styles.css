@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background-color: #0c0c0c;
+}
+
+/* Navbar */
+.flex {
+  display: flex;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand img {
+  height: 120px;
+  border-radius: 30%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+    margin-right: 20px;
+}
+
+i {
+  color: white;
+}
+
+/* Navbar */
