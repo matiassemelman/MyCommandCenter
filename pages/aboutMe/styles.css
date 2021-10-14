@@ -21,25 +21,18 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(https://images.pexels.com/photos/1265990/pexels-photo-1265990.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-  background-position: center;
-  background-size: 100%;
+  background-color: rgba(0, 0, 0, 0.911);
   height: 100vh;
   font-family: "Poppins", arial;
 }
 
-.flex {
-    display: flex;
-  }
-
 /* Navbar */
 
-
 .navbar {
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.356);
+  background-color: black;
 }
 
 .brand img {
@@ -48,6 +41,7 @@ body {
 
 ul {
   list-style-type: none;
+  display: flex;
 }
 
 li {
@@ -61,23 +55,54 @@ i {
 
 /* Header*/
 header h1 {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 1.8em;
+  text-align: center;
+  font-size: 1.8em;
 }
 
 header h2 {
-margin: 10px;
-text-align: center;
+  margin: 10px;
+  text-align: center;
 }
 header div {
-    text-align: center;
+  text-align: center;
 }
 header p {
-    margin: 30px;
-    font-size: 1.2em;
-    
-
+  margin: 30px;
+  font-size: 1.2em;
 }
 
 /* Header*/
+
+/* Images */
+section {
+  margin: 20px 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+article img {
+  height: 350px;
+  width: 350px;
+  border-radius: 30%;
+}
+
+.talk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.riding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.riding img {
+  margin: 30px 10px;
+}
+
+
+/* Images */
