@@ -1,75 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+:root {
+  --iron: rgba(221, 221, 222, 1);
+  --cod-gray: rgba(12, 12, 12, 1);
+  --jacksons-purple: rgba(46, 38, 140, 1);
+  --boulder: rgba(124, 124, 124, 1);
+  --lucky-point: rgba(31, 25, 97, 1);
+  --scarpa-flow: rgba(91, 91, 93, 1);
+  --tundora: rgba(68, 68, 68, 1);
+  --shark: rgba(44, 44, 45, 1);
+  --topaz: rgba(132, 124, 149, 1);
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
-    box-sizing: border-box;
-    color: aliceblue;
-  }
-  body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-      background-position: center;
-    background-size: 100%;
-  }  
-
-  .navbar {
-    height: 13vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid aliceblue;
-    background-color: rgba(255, 255, 255, 0.1);
-  }
-  
-  .left .logo {
-    width: 400px;
-    font-size: 28px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    filter: drop-shadow(3px 3px 2px rgba(165, 144, 111, 0.8));
-  }
-  .menu {
-    display: flex;
-    align-items: right;
-    margin-right: 40px;
-  }
-  
-  .item {
-    margin-left: 20px;
-    font-size: 20px;
-    cursor: pointer;
-  }
-
-.item a {
-text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+  font-size: 20px;
 }
 
-  h1 {
-      text-align: center;
-      margin-top: 20px;
-      margin-bottom: 30px;
-      font-size: 35px;
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-position: center;
+  background-size: 100%;
+  height: 100vh;
+  font-family: "Poppins", arial;
+}
+
+.flex {
+    display: flex;
   }
 
-h2 {
+/* Navbar */
+
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.356);
+}
+
+.brand img {
+  height: 90px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-right: 20px;
+}
+
+i {
+  color: white;
+}
+/* Navbar */
+
+/* Header*/
+header h1 {
     text-align: center;
-    margin-bottom: 50px;
-    font-size: 30px;
+    margin-top: 20px;
+    font-size: 1.8em;
 }
 
-.center_text {
-    font-size: 20px;
-    margin-left: 20px;
+header h2 {
+margin: 10px;
+text-align: center;
+}
+header div {
+    text-align: center;
+}
+header p {
+    margin: 30px;
+    font-size: 1.2em;
+    
+
 }
 
-p {
-    margin-bottom: 20px;
-}
-
+/* Header*/
