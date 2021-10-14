@@ -29,14 +29,12 @@ body {
   font-family: "Poppins", arial;
 }
 
-.flex {
-    display: flex;
-  }
 
 /* Navbar */
 
 
 .navbar {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.356);
@@ -47,6 +45,7 @@ body {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
 }
 

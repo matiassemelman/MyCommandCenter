@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
-
+:root {
+  height: 100%;
+}
 * {
     margin: 0;
     padding: 0;
@@ -8,19 +10,54 @@
     box-sizing: border-box;
     color: aliceblue;
     margin-bottom: 10px;
+    font-size: 18px;
 ;
   }
   body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(https://images.pexels.com/photos/1265990/pexels-photo-1265990.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
       background-position: center;
-    background-size: cover;
+    background-size: 100%;
 
   }  
+  /* Navbar */
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.356);
+  margin-bottom: 0;
+  height: 100px;
+}
+
+.brand {
+  height: 90px;
+}
+
+.brand img {
+  height: 100px;
+}
+
+ul {
+  margin-top: 20px;
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin-right: 20px;
+}
+
+i {
+  color: white;
+}
+/* Navbar */
+
 
   .layout {
     margin: 0 40px 0 40px;
@@ -36,7 +73,7 @@
 
 .cards_container_css {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 
