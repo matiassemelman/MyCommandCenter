@@ -49,10 +49,6 @@ ul {
   list-style-type: none;
 }
 
-ol {
-  margin-left: 30px;
-}
-
 li {
   margin-right: 20px;
 }
@@ -62,36 +58,6 @@ i {
 }
 /* Navbar */
 
-/* Header*/
-header h1 {
+h1 {
     text-align: center;
-    margin-top: 20px;
-    font-size: 1.8em;
-}
-
-header h2 {
-margin: 10px;
-text-align: center;
-}
-header div {
-    text-align: center;
-}
-header p {
-    margin: 30px;
-    font-size: 1.2em;
-    
-
-}
-
-/* Header*/
-
-hr {
-  margin: 20px 0;
-}
-
-.sources {
-  display: flex;
-  flex-direction: column;
-  margin-left: 30px;
-  margin-bottom: 30px;
 }
