@@ -5,7 +5,11 @@
 }
 
 body {
-  background-color: #0c0c0c;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+      background-position: center;
+    background-size: 100%;
+    height: 100vh;
 }
 
 /* Navbar */
@@ -16,11 +20,11 @@ body {
 .navbar {
   justify-content: space-between;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.356);
 }
 
 .brand img {
-  height: 120px;
-  border-radius: 30%;
+  height: 90px;
 }
 
 ul {
