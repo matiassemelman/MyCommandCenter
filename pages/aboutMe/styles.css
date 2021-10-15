@@ -91,7 +91,7 @@ article img {
   border-radius: 30%;
 }
 
-.talk {
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -108,4 +108,12 @@ article img {
   margin: 30px 10px;
 }
 
+.playing {
+  margin-bottom: 30px;
+}
+
+.playing img {
+  height: 400px;
+  width: 500px;
+}
 /* Images */
