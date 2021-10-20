@@ -4,79 +4,83 @@
   height: 100%;
 }
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", arial;
-    box-sizing: border-box;
-    color: aliceblue;
-    margin-bottom: 10px;
-    font-size: 18px;
-;
-  }
-  body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(https://images.pexels.com/photos/1265990/pexels-photo-1265990.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-      background-position: center;
-    background-size: 100%;
-
-  }  
-  /* Navbar */
-
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", arial;
+  box-sizing: border-box;
+  color: aliceblue;
+  font-size: 18px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(https://images.pexels.com/photos/1265990/pexels-photo-1265990.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-position: center;
+  background-size: 100%;
+}
+/* Navbar */
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.356);
-  margin-bottom: 0;
-  height: 100px;
+  border-bottom: 1px white solid;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: black;
+  padding: 20px;
 }
 
-.brand {
-  height: 90px;
-}
-
-.brand img {
-  height: 100px;
+.logo {
+  margin-left: 30px;
+  font-weight: 900;
+  font-size: 30px;
 }
 
 ul {
-  margin-top: 20px;
+  
   display: flex;
   list-style-type: none;
 }
 
 li {
+
   margin-right: 20px;
 }
 
+.nav_list a {
+  font-weight: bolder;
+}
+
+.nav_list a:hover {
+  font-weight: bolder;
+}
+
 i {
+  
   color: white;
 }
 /* Navbar */
 
+.layout {
+  margin: 0 40px 0 40px;
+}
 
-  .layout {
-    margin: 0 40px 0 40px;
-  }
-
-  h1 {
-    text-align: center;
-  }
-  h3 {
-    text-align: center;
-    font-size: 25px;    
-  }
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  font-size: 25px;
+}
 
 .cards_container_css {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .cards {
