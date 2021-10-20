@@ -1,3 +1,5 @@
 # My cave, my fun.
 
-## [Press my and put your belt on](https://matiassemelman.github.io/MyCommandCenter/)
+## [Deploy on Netlify](https://matiassemelman.netlify.app/)
+
+## [Deploy in Github](https://matiassemelman.github.io/MyCommandCenter/)
