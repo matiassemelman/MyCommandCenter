@@ -1,16 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
-:root {
-  --iron: rgba(221, 221, 222, 1);
-  --cod-gray: rgba(12, 12, 12, 1);
-  --jacksons-purple: rgba(46, 38, 140, 1);
-  --boulder: rgba(124, 124, 124, 1);
-  --lucky-point: rgba(31, 25, 97, 1);
-  --scarpa-flow: rgba(91, 91, 93, 1);
-  --tundora: rgba(68, 68, 68, 1);
-  --shark: rgba(44, 44, 45, 1);
-  --topaz: rgba(132, 124, 149, 1);
-}
 
 * {
   margin: 0;

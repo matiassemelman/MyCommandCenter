@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 
 * {
@@ -25,24 +26,40 @@ background-color: rgba(0, 0, 0, 0.938);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(0, 0, 0);
+  border-bottom: 1px white solid;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: black;
+  padding: 20px;
 }
 
-.navbar img {
-  height: 90px;
+.logo {
+  margin-left: 30px;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
 }
 
 ul {
+  
   display: flex;
   list-style-type: none;
 }
 
 li {
+
   margin-right: 20px;
 }
 
+.nav_list a {
+  font-weight: bolder;
+}
+
+.nav_list a:hover {
+  font-weight: bolder;
+}
+
 i {
-  color: white;
 }
 /* Navbar */
 
