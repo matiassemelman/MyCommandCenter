@@ -1,16 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
-:root {
-  --iron: rgba(221, 221, 222, 1);
-  --cod-gray: rgba(12, 12, 12, 1);
-  --jacksons-purple: rgba(46, 38, 140, 1);
-  --boulder: rgba(124, 124, 124, 1);
-  --lucky-point: rgba(31, 25, 97, 1);
-  --scarpa-flow: rgba(91, 91, 93, 1);
-  --tundora: rgba(68, 68, 68, 1);
-  --shark: rgba(44, 44, 45, 1);
-  --topaz: rgba(132, 124, 149, 1);
-}
 
 * {
   margin: 0;
@@ -36,23 +25,40 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px white solid;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   background-color: black;
+  padding: 20px;
 }
 
-.brand img {
-  height: 90px;
+.logo {
+  margin-left: 30px;
+  font-weight: 900;
+  font-size: 30px;
 }
 
 ul {
-  list-style-type: none;
+  
   display: flex;
+  list-style-type: none;
 }
 
 li {
+
   margin-right: 20px;
 }
 
+.nav_list a {
+  font-weight: bolder;
+}
+
+.nav_list a:hover {
+  font-weight: bolder;
+}
+
 i {
+  
   color: white;
 }
 /* Navbar */

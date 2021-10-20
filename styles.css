@@ -10,10 +10,11 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  background-position: center;
-  background-size: 100%;
+  background-color:   hsl(229, 57%, 11%);
+background-image: url(./assets/bg-desktop.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: bottom;
   height: 100vh;
   font-family: "Poppins", arial;
 }
@@ -26,23 +27,40 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.356);
+  border-bottom: 1px white solid;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: hsl(228, 56%, 26%);
+  padding: 20px;
 }
 
-.brand img {
-  height: 90px;
+.logo {
+  margin-left: 30px;
+  font-weight: 900;
+  font-size: 30px;
 }
 
 ul {
+  
   display: flex;
   list-style-type: none;
 }
 
 li {
+
   margin-right: 20px;
 }
 
+.nav_list a {
+  font-weight: bolder;
+}
+
+.nav_list a:hover {
+  font-weight: bolder;
+}
+
 i {
+  
   color: white;
 }
 /* Navbar */
@@ -52,6 +70,7 @@ header h1 {
     text-align: center;
     margin-top: 20px;
     font-size: 1.8em;
+    
 }
 
 header h2 {
