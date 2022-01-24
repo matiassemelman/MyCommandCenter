@@ -54,14 +54,21 @@ h1 {
   margin: 1em;
 }
 
-.handstand {
+.images--handstand {
   width: 200px;
   height: 300px;
 }
 
-.container {
+.images--react {
+  width: 450px;
+  height: 250px;
+}
+
+.card--container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .card {
